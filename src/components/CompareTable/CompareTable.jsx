@@ -33,14 +33,15 @@ const CompareTable = ({products}) => (
                                 {product.colors.map((color, index) => (
                                     <span key={index} className={"bg-" + color}/>
                                 ))}
+                                <span className="text-uppercase">{product.colors}</span>
                             </td>
                         ))}
                     </tr>
 
                     <tr className="condition">
-                        <th scope="row">Conditions</th>
+                        <th scope="row">Chip</th>
                         {products.map((product) => (
-                            <td key={product.id} className={product.condition === "Frozen" ? "bg-red" : "bg-green"}>
+                            <td key={product.id} className={"text-center text-white bg-secondary"}>
                                 {product.condition}
                             </td>
                         ))}

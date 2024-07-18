@@ -1,39 +1,40 @@
 {
-  "products": [{
-    "id": "1",
-    "name": "Cherry",
-    "image": "src/assets/Cherry.png",
-    "price": "$1.99",
-    "colors": ["red", "green", "blue"],
-    "condition": "Fresh",
-    "description": "Two Cherries"
-  },
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro Max",
+      "image": "src/assets/iphone15_pro_max.jpg",
+      "price": "$1199",
+      "colors": ["black"],
+      "condition": "A17 Pro chip",
+      "description": "6.7″"
+    },
     {
       "id": "2",
-      "name": "Orange",
-      "image": "src/assets/Orange.png",
-      "price": "$2.99",
-      "colors": ["green", "blue"],
-      "condition": "Frozen",
-      "description": "Giant Orange"
+      "name": "iPhone 15 Pro",
+      "image": "src/assets/iphone15_pro.jpg",
+      "price": "$999",
+      "colors": ["brown"],
+      "condition": "A17 Pro chip",
+      "description": "6.1″"
     },
     {
       "id": "3",
-      "name": "Nuts",
-      "image": "src/assets/Nuts.png",
-      "price": "$1.00",
-      "colors": ["red"],
-      "condition": "Frozen",
-      "description": "Mixed Nuts"
+      "name": "iPhone 15 Plus",
+      "image": "src/assets/iphone15_plus.jpg",
+      "price": "$899",
+      "colors": ["green"],
+      "condition": "A16 Bionic chip",
+      "description": "6.7″"
     },
     {
       "id": "4",
-      "name": "Strawberry",
-      "image": "src/assets/Strawberry.png",
-      "price": "$1.49",
-      "colors": ["blue"],
-      "condition": "Fresh",
-      "description": "Just Strawberry"
+      "name": "iPhone 15",
+      "image": "src/assets/iphone15.jpg",
+      "price": "$799",
+      "colors": ["ping"],
+      "condition": "A16 Bionic chip",
+      "description": "6.1″"
     }
   ]
 }

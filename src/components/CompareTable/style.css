@@ -7,14 +7,17 @@
     font-size: 18px;
     table-layout: fixed;
 }
-.compare table .bg-red {
-    background-color: #ff715b;
+.compare table .bg-black {
+    background-color: #1b1b1b;
+}
+.compare table .bg-ping {
+    background-color: #e3c8ca;
 }
 .compare table .bg-green {
-    background-color: #48cfad;
+    background-color: #cad4c5;
 }
-.compare table .bg-blue {
-    background-color: #0197f6;
+.compare table .bg-brown {
+    background-color: #837f7d;
 }
 .compare table tr > td,
 .compare table tr > th {

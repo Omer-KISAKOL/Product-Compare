@@ -4,12 +4,7 @@ import results from "../../data/products.json";
 
 const Home = () => {
 
-    const [nameSearch, setNameSearch] = useState("");
     const [products, setProducts] = useState(results.products);
-
-    const handleChange = (event) => {
-      setNameSearch(event.target.value);
-    }
 
     const compare = (id) => {
       setProducts(
@@ -21,22 +16,16 @@ const Home = () => {
 
     return (
         <div className="home mt-5">
+
             <div className="row">
                 <div className="col-12">
-                    <h2 className="mb-3">Compare Product</h2>
-                    <input
-                        type="text"
-                        placeholder="Search by name"
-                        value={nameSearch}
-                        onChange={(e) => handleChange(e)}
-                    />
+                    <h2 className="mb-3 text-center">Compare Product</h2>
                 </div>
             </div>
 
-            <ProductList nameSearch={nameSearch} products={products} compare={compare} />
+            <ProductList products={products} compare={compare} />
 
             {compareProducts.length >= 1 && <CompareTable products={compareProducts}/> }
-
 
         </div>
     )
