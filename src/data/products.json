@@ -30,7 +30,7 @@
     {
       "id": "4",
       "name": "iPhone 15",
-      "image": "src/assets/iphone15.jpg",
+      "image": "src/assets/iphone15.png",
       "price": "$799",
       "colors": ["ping"],
       "condition": "A16 Bionic chip",
