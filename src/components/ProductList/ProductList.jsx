@@ -1,6 +1,6 @@
 import Product from "../Product/Product.jsx";
 
-const ProductList = ({products, compare, nameSearch}) => {
+const ProductList = ({products, compare}) => {
     const renderProducts = () => {
       return products;
     };

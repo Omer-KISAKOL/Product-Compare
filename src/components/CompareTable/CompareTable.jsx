@@ -3,7 +3,7 @@ import "./style.css"
 
 const CompareTable = ({products}) => (
     <div className="row compare">
-        <div className="col-12 mt-5 text-center">
+        <div className="col-12 my-3 pb-5 text-center">
             <table className="table">
 
                 <thead className="thead-default">
